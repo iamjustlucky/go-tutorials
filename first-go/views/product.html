@@ -1,0 +1,11 @@
+{{ template "layout" .}} 
+
+{{ define "main" }} 
+
+{{ range . }}
+<div class="text box-with-shadow">
+    {{ .Id }} - {{ .Name }} - {{ .Price }} - {{ .Stock }} {{ .StockStatus }} 
+</div>
+{{ end }} 
+
+{{ end }}

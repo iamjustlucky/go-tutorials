@@ -1,0 +1,14 @@
+.text {
+    color: coral;
+}
+
+.box-with-shadow{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    margin-bottom: 30px;
+}
+
+.header{
+    margin-top: 30px;
+}
